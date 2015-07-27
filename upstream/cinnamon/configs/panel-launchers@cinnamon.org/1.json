@@ -1,0 +1,19 @@
+{
+    "launcherList": {
+        "type": "generic",
+        "default": [
+            "firefox.desktop",
+            "mozilla-thunderbird.desktop",
+            "org.gnome.Terminal.desktop",
+            "nemo.desktop"
+        ],
+        "value": []
+    },
+    "allow-dragging": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Allow dragging of launchers",
+        "value": true
+    },
+    "__md5__": "f6647f18a79628551cfd012ce638a6c7"
+}
