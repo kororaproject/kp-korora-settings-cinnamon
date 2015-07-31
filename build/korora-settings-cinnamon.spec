@@ -3,7 +3,7 @@
 Summary:    Korora configs for Cinnamon
 Name:       korora-settings-cinnamon
 Version:    0.2
-Release:    1%{?dist}
+Release:    2%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -41,6 +41,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Jul 31 2015 Chris Smart <csmart@kororaproject.org> 0.2-2
+- Use yumex-dnf instead of yumex
+
 * Mon Jul 27 2015 Ian Firns <firnsy@kororaproject.org> 0.2-1
 - Updated settings for Cinnamon
 
