@@ -1,0 +1,26 @@
+[Nemo Action]
+
+#############################################
+## PURPOSE:
+##
+## Provide Nemo equivalent for deja-dup's 
+## integration with GNOME / Nautilus 
+## to restore an individual file from backups
+##
+## Forked From:
+## https://github.com/erickj/nemo-actions
+#############################################
+
+# This file should be put into either
+# /usr/share/nemo/actions/
+# or
+# $HOME/.local/share/nemo/actions/
+
+Active=true
+Name=Revert to Previous Version...
+Comment=Revert to a previous version from backups
+Exec=/usr/bin/deja-dup --restore '%F'
+Icon-Name=document-revert
+Selection=notnone
+Extensions=any;
+Dependencies=/usr/bin/deja-dup
