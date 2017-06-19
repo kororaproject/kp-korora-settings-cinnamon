@@ -1,0 +1,27 @@
+[Nemo Action]
+
+#########################################
+## PURPOSE:
+##
+## Provide Nemo equivalent for deja-dup's 
+## integration with GNOME / Nautilus 
+## to restore a directory of all missing
+## files from current backups
+##
+## Forked From:
+## https://github.com/erickj/nemo-actions
+#########################################
+
+# This file should be put into either
+# /usr/share/nemo/actions/
+# or
+# $HOME/.local/share/nemo/actions/
+
+Active=true
+Name=Restore Missing Files...
+Comment=Check for missing files or directories from backups
+Exec=/usr/bin/deja-dup --restore-missing '%F'
+Icon-Name=document-revert-rtl
+Selection=none
+Extensions=any;
+Dependencies=/usr/bin/deja-dup
