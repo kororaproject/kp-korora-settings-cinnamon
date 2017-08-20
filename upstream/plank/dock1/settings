@@ -5,7 +5,7 @@
 #Whether to show only windows of the current workspace.
 CurrentWorkspaceOnly=false
 #The size of dock icons (in pixels).
-IconSize=48
+IconSize=40
 #If 0, the dock won't hide.  If 1, the dock intelligently hides.  If 2, the dock auto-hides. If 3, the dock dodges active maximized windows. If 4, the dock dodges every window.
 HideMode=2
 #Time (in ms) to wait before unhiding the dock.
@@ -21,7 +21,7 @@ Position=0
 #The dock's position offset from center (in percent).
 Offset=0
 #The name of the dock's theme to use.
-Theme=Korora
+Theme=Arc
 #The alignment for the dock on the monitor's edge.  If 0, panel-mode.  If 1, left-aligned.  If 2, right-aligned.  If 3, centered.
 Alignment=3
 #The alignment of the items in this dock if panel-mode is used.  If 1, left-aligned.  If 2, right-aligned.  If 3, centered.
