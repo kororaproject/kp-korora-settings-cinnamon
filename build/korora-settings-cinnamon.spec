@@ -3,7 +3,7 @@
 Summary:    Korora configs for Cinnamon
 Name:       korora-settings-cinnamon
 Version:    0.3
-Release:    2%{?dist}
+Release:    3%{?dist}
 
 Group:      System Environment/Base
 License:    GPLv3+
@@ -41,7 +41,7 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Mon Sep 11 2017 Ian Firns <firnsy@kororaproject.org> 0.3-2
+* Mon Sep 11 2017 Ian Firns <firnsy@kororaproject.org> 0.3-3
 - Removed duplicate filemanager icon.
 
 * Sun Aug 20 2017 Ian Firns <firnsy@kororaproject.org> 0.3-1
